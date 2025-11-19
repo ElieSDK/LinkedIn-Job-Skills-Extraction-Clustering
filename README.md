@@ -1,9 +1,9 @@
 # LinkedIn Job Postings Skill Extraction & Clustering
 
-This project contains a small workflow for analyzing LinkedIn job
+This project contains a workflow for analyzing LinkedIn job
 posting data.\
 It focuses on cleaning job descriptions, extracting technical skills,
-and grouping similar roles using a simple clustering approach.
+and grouping similar roles using a clustering approach.
 
 ## Overview
 
@@ -63,11 +63,5 @@ Or open the Jupyter notebook to inspect the steps interactively.
 -   Cleaned description text\
 -   Extracted and normalized skills per job posting\
 -   Cluster labels for each job\
--   Basic overview of salary patterns per cluster (if salary data is
+-   Overview of salary patterns per cluster (if salary data is
     available)
-
-## Notes
-
-This project is mainly for experimentation.\
-Feel free to modify the skill list, tweak the clustering settings, or
-extend the text cleaning steps depending on your dataset.
