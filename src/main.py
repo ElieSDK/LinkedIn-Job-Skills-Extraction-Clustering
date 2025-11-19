@@ -107,7 +107,7 @@ def cluster_jobs(df, k=8):
     vec = TfidfVectorizer(max_features=100)
     X = vec.fit_transform(df['skills_str'])
 
-    model = KMeans(n_clusters=k, random_state=42, n_init='auto')
+    model = KMeans(n_clusters=k, random_state=0, n_init='auto')
     df['cluster'] = model.fit_predict(X)
 
     print(df['cluster'].value_counts())
