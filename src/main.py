@@ -146,4 +146,4 @@ if __name__ == "__main__":
     df = extract_skills(df)
     df = cluster_jobs(df, 8)
     analyze_salary(df)
-    print("done")
+    print("done.")
