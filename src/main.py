@@ -6,7 +6,6 @@ from nltk.tokenize import word_tokenize
 from collections import Counter
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.cluster import KMeans
-from google.colab import drive
 
 # settings
 ZIP_FILE_PATH = '/drive/linkedin.zip'
