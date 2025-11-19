@@ -68,6 +68,6 @@ Or open the Jupyter notebook to inspect the steps interactively.
 
 ## Notes
 
-This project is mainly for experimentation and light analysis.\
+This project is mainly for experimentation.\
 Feel free to modify the skill list, tweak the clustering settings, or
 extend the text cleaning steps depending on your dataset.
