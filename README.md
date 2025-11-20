@@ -35,10 +35,10 @@ The original dataset used in this project can be downloaded from Kaggle:
 
 ## Requirements
 
--   Python 3.x\
--   pandas\
--   nltk\
--   scikit-learn\
+-   Python 3.x
+-   pandas
+-   nltk
+-   scikit-learn
 
 You may also need to download NLTK resources:
 
@@ -60,8 +60,8 @@ Or open the Jupyter notebook to inspect the steps interactively.
 
 ## Output
 
--   Cleaned description text\
--   Extracted and normalized skills per job posting\
--   Cluster labels for each job\
+-   Cleaned description text
+-   Extracted and normalized skills per job posting
+-   Cluster labels for each job
 -   Overview of salary patterns per cluster (if salary data is
     available)
